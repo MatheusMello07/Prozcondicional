@@ -1,0 +1,36 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 12/09/2023
+Var
+// Seção de Declarações das variáveis 
+nome:caracter
+disciplina:caracter
+nota:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval ("digite o nome do aluno: ")
+leia (nome)
+
+escreval ("digite o nome da disciplina: ")
+leia (disciplina)
+
+escreval ("digite a nota do aluno: ")
+leia (nota)
+
+se (nota <= 0) ou (nota > 10) entao
+    escreval ("nota invalida")
+senao
+    se (nota >= 7) ENTAO
+    escreval ("aluno aprovado")
+    
+    senao
+
+    escreval ("aluno reprovado")
+    fimse
+fimse
+
+Fimalgoritmo
